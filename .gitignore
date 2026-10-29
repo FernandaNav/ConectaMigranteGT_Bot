@@ -1,0 +1,15 @@
+# token y configuracion privada
+.env
+
+# entorno virtual
+venv/
+.venv/
+
+# archivos generados por python
+__pycache__/
+*.pyc
+
+# configuracion del editor y del sistema
+.vscode/
+.DS_Store
+Thumbs.db

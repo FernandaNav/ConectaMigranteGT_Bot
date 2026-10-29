@@ -1,0 +1,217 @@
+{
+  "aviso": "Conecta Migrante brinda orientación general. No sustituye asesoría legal ni la información oficial de cada institución; confirma siempre en sus canales oficiales.",
+  "nodos": {
+    "ext_riesgo": {
+      "titulo": "Detención o riesgo",
+      "padre": "exterior",
+      "palabras_clave": [
+        "detenido",
+        "detenida",
+        "arresto",
+        "ice",
+        "migra",
+        "peligro",
+        "riesgo"
+      ],
+      "texto": "Si tú o un familiar fueron detenidos en el extranjero:\n\n1. Comunícate con el *consulado de Guatemala* más cercano; tienen la función de brindar protección consular.\n2. No firmes documentos que no entiendas; pide un intérprete.\n3. Guarda nombre completo, fecha de nacimiento y lugar de detención de la persona.\n\n🔗 minex.gob.gt"
+    },
+    "inicio": {
+      "titulo": "Menú principal",
+      "texto": "¡Hola! Soy *Conecta Migrante* 🇬🇹\nTe oriento sobre instituciones y trámites si estás en proceso migratorio o regresaste a Guatemala.\n\n¿En qué te puedo ayudar?",
+      "opciones": [
+        {
+          "texto": "🏠 Acabo de regresar a Guatemala",
+          "ir_a": "retorno"
+        },
+        {
+          "texto": "🌎 Estoy en el extranjero",
+          "ir_a": "exterior"
+        },
+        {
+          "texto": "📄 Trámites y documentos",
+          "ir_a": "tramites"
+        },
+        {
+          "texto": "⚖️ Derechos y denuncias",
+          "ir_a": "derechos"
+        },
+        {
+          "texto": "📇 Directorio de instituciones",
+          "ir_a": "directorio"
+        },
+        {
+          "texto": "ℹ️ Acerca del proyecto",
+          "ir_a": "acerca"
+        }
+      ]
+    },
+    "retorno": {
+      "titulo": "Retorno a Guatemala",
+      "padre": "inicio",
+      "texto": "Bienvenido/a de vuelta. ¿Qué necesitas?",
+      "opciones": [
+        {
+          "texto": "¿Qué pasa al llegar?",
+          "ir_a": "retorno_llegada"
+        },
+        {
+          "texto": "Obtener o reponer mi DPI",
+          "ir_a": "tram_dpi"
+        },
+        {
+          "texto": "Empleo y capacitación",
+          "ir_a": "retorno_empleo"
+        },
+        {
+          "texto": "Salud y apoyo emocional",
+          "ir_a": "retorno_salud"
+        }
+      ]
+    },
+    "retorno_llegada": {
+      "titulo": "Al llegar",
+      "padre": "retorno",
+      "palabras_clave": [
+        "llegada",
+        "deportado",
+        "deportada",
+        "retornado",
+        "retornada",
+        "aeropuerto",
+        "recepcion",
+        "regrese",
+        "regresé"
+      ],
+      "texto": "Las personas retornadas son recibidas por el *Instituto Guatemalteco de Migración (IGM)* dentro del *Plan Retorno al Hogar*, en coordinación con otras instituciones del Estado.\n\nAl llegar se brinda orientación inicial, atención humanitaria básica (alimentación, salud, llamada a familiares) y se identifican necesidades y perfil laboral.\n\n🔗 igm.gob.gt"
+    },
+    "retorno_empleo": {
+      "titulo": "Empleo y capacitación",
+      "padre": "retorno",
+      "palabras_clave": [
+        "trabajo",
+        "empleo",
+        "chamba",
+        "capacitacion",
+        "curso"
+      ],
+      "texto": "Opciones para buscar trabajo o capacitarte:\n\n• *Ministerio de Trabajo (MINTRAB)*: bolsa de empleo y orientación laboral.\n🔗 mintrabajo.gob.gt\n\n• *INTECAP*: cursos técnicos y certificación de habilidades que aprendiste afuera.\n🔗 intecap.edu.gt\n\n💡 Pregunta en la recepción del IGM por la vinculación laboral del Plan Retorno al Hogar."
+    },
+    "retorno_salud": {
+      "titulo": "Salud y apoyo emocional",
+      "padre": "retorno",
+      "palabras_clave": [
+        "salud",
+        "enfermo",
+        "psicologo",
+        "psicológico",
+        "ansiedad",
+        "triste",
+        "apoyo"
+      ],
+      "texto": "Regresar puede ser difícil, y está bien pedir apoyo.\n\n• *Ministerio de Salud (MSPAS)*: puestos y centros de salud en todo el país, con atención gratuita.\n🔗 mspas.gob.gt\n\n🚨 En una emergencia, llama a los *Bomberos* (122 / 123) o acude al hospital más cercano."
+    },
+    "exterior": {
+      "titulo": "En el extranjero",
+      "padre": "inicio",
+      "texto": "Si estás fuera de Guatemala, tu principal apoyo es la red consular del *Ministerio de Relaciones Exteriores (MINEX)*.",
+      "opciones": [
+        {
+          "texto": "Consulados y servicios",
+          "ir_a": "ext_consulados"
+        },
+        {
+          "texto": "Estoy detenido/a o en riesgo",
+          "ir_a": "ext_riesgo"
+        },
+        {
+          "texto": "Documentos desde afuera",
+          "ir_a": "ext_documentos"
+        }
+      ]
+    },
+    "ext_consulados": {
+      "titulo": "Consulados",
+      "padre": "exterior",
+      "palabras_clave": [
+        "consulado",
+        "consular",
+        "estados unidos",
+        "usa",
+        "mexico",
+        "méxico",
+        "canada"
+      ],
+      "texto": "Guatemala tiene una red de consulados en Estados Unidos, México, Canadá y otros países. Ofrecen protección consular, orientación legal migratoria gratuita y documentación (pasaporte, DPI, tarjeta consular).\n\nEl MINEX también realiza *consulados móviles* en distintas ciudades.\n\n🔗 Directorio y citas: minex.gob.gt"
+    },
+    "ext_documentos": {
+      "titulo": "Documentos desde afuera",
+      "padre": "exterior",
+      "texto": "Desde un consulado puedes tramitar pasaporte, DPI, tarjeta de identificación consular y certificados de nacimiento (por ejemplo, para registrar a hijos nacidos afuera).\n\nConfirma requisitos y forma de cita en la página de tu consulado.\n🔗 minex.gob.gt"
+    },
+    "tramites": {
+      "titulo": "Trámites y documentos",
+      "padre": "inicio",
+      "texto": "¿Qué trámite necesitas?",
+      "opciones": [
+        {
+          "texto": "Pasaporte",
+          "ir_a": "tram_pasaporte"
+        },
+        {
+          "texto": "DPI",
+          "ir_a": "tram_dpi"
+        }
+      ]
+    },
+    "tram_pasaporte": {
+      "titulo": "Pasaporte",
+      "padre": "tramites",
+      "palabras_clave": [
+        "pasaporte"
+      ],
+      "texto": "El pasaporte lo emite el *IGM*.\n\n• En Guatemala: programa tu cita *en línea* (es gratuita) y llega con el formulario impreso y firmado que se genera al agendar, más tu DPI vigente.\n• En el extranjero: se tramita en el consulado.\n\n⚠️ La cita no tiene costo. No pagues a 'gestores' ni a páginas de redes sociales.\n🔗 igm.gob.gt"
+    },
+    "tram_dpi": {
+      "titulo": "DPI",
+      "padre": "tramites",
+      "palabras_clave": [
+        "dpi",
+        "renap",
+        "identificacion",
+        "cedula",
+        "cui"
+      ],
+      "texto": "El *DPI* lo emite el *Registro Nacional de las Personas (RENAP)*. Si regresaste sin documentos, acude a una oficina de RENAP para reponerlo.\n\nSi estás en el extranjero, puedes solicitarlo en el consulado.\n🔗 renap.gob.gt"
+    },
+    "derechos": {
+      "titulo": "Derechos y denuncias",
+      "padre": "inicio",
+      "palabras_clave": [
+        "derechos",
+        "denuncia",
+        "abuso",
+        "estafa",
+        "discriminacion",
+        "maltrato"
+      ],
+      "texto": "Tienes derecho a un trato digno, a estar documentado/a y a recibir orientación.\n\n• *Procuraduría de los Derechos Humanos (PDH)*: recibe denuncias por violaciones a derechos.\n🔗 pdh.org.gt\n\n• *CONAMIGUA* (Consejo Nacional de Atención al Migrante de Guatemala): coordina políticas de atención a migrantes y sus familias.\n🔗 conamigua.gob.gt\n\n⚠️ Desconfía de quien te cobre por 'agilizar' trámites del IGM, RENAP o consulados."
+    },
+    "directorio": {
+      "titulo": "Directorio",
+      "padre": "inicio",
+      "palabras_clave": [
+        "directorio",
+        "instituciones",
+        "telefono",
+        "teléfono",
+        "contacto"
+      ],
+      "texto": "📇 *Directorio de instituciones*\n\n• IGM – Migración: igm.gob.gt\n• MINEX – Consulados: minex.gob.gt\n• RENAP – DPI: renap.gob.gt\n• CONAMIGUA: conamigua.gob.gt\n• PDH: pdh.org.gt\n• MINTRAB – Empleo: mintrabajo.gob.gt\n• INTECAP – Capacitación: intecap.edu.gt\n• MSPAS – Salud: mspas.gob.gt"
+    },
+    "acerca": {
+      "titulo": "Acerca",
+      "padre": "inicio",
+      "texto": "*Conecta Migrante* es un proyecto de Responsabilidad Social Universitaria del curso de Ética Aplicada, Facultad de Ingeniería, Universidad Rafael Landívar, Campus de Quetzaltenango.\n\nEquipo: Luis Granados, María Inés Cardona López, Fernanda Abigail Navarro Martínez y Andy Emmanuel Maldonado López."
+    }
+  }
+}
