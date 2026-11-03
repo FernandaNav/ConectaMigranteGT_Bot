@@ -68,6 +68,7 @@ conecta-migrante-bot/
 ├── bot.py            # lógica del bot
 ├── contenido.json    # menús, respuestas y palabras clave
 ├── requirements.txt  # dependencias
+├── render.yaml       # configuracion del despliegue en Render
 ├── .env.example      # plantilla para el token
 ├── .gitignore
 └── README.md
@@ -97,6 +98,21 @@ conecta-migrante-bot/
 
 > ⚠️ Nunca subas el archivo `.env` ni compartas el token. Si se expone, genera uno nuevo en @BotFather con `/revoke`.
 
+## Despliegue en la nube (Render)
+
+En la nube el bot funciona en **modo webhook**: Telegram le envía cada mensaje al servidor, así que no hace falta tener ninguna computadora encendida. El modo se elige solo: si existe la variable `RENDER_EXTERNAL_URL` (Render la define automáticamente) o `WEBHOOK_URL`, usa webhook; si no, usa polling como en local.
+
+1. Crear una cuenta en [render.com](https://render.com) entrando con la cuenta de GitHub que tiene acceso a este repositorio.
+2. **New → Blueprint** y elegir este repositorio. Render lee `render.yaml` y crea el servicio `conecta-migrante-bot` en el plan gratuito.
+3. Cuando lo pida, escribir el valor de `TELEGRAM_TOKEN`.
+4. Esperar a que el deploy termine y en los logs aparezca `Conecta Migrante en linea (webhook)`. Enviar `/start` al bot para comprobarlo.
+
+Cada `git push` a `main` vuelve a desplegar el bot automáticamente.
+
+**Sobre el plan gratuito:** si nadie escribe durante 15 minutos, Render duerme el servicio. El siguiente mensaje lo despierta, pero esa primera respuesta puede tardar entre 30 segundos y un minuto. Para evitarlo se puede crear una tarea gratuita en [cron-job.org](https://cron-job.org) que visite `https://<tu-servicio>.onrender.com/telegram` cada 10 minutos (responde con error 405, y eso es normal: solo sirve para mantenerlo despierto).
+
+> ⚠️ Mientras el bot esté desplegado, **no lo ejecuten en local con el mismo token**: al arrancar en modo polling se borra el webhook y el bot de la nube deja de recibir mensajes hasta que se reinicie. Para hacer pruebas en local, creen un segundo bot de prueba en @BotFather y usen su token en el `.env`.
+
 ## Editar el contenido
 
 Todo el texto está en `contenido.json`, sin necesidad de tocar el código. Cada sección es un **nodo** con estos campos:
@@ -122,11 +138,11 @@ Para agregar una sección, crea el nodo y añade un botón que apunte a él desd
 
 - Solo entiende las palabras clave definidas. Las frases que no reconoce se envían al menú principal.
 - La información de las instituciones puede cambiar y requiere revisión periódica.
-- Ejecutado localmente, el bot funciona solo mientras el equipo que lo hospeda esté encendido.
+- En el plan gratuito de Render, la primera respuesta después de un rato sin uso puede tardar hasta un minuto.
 
 ## Trabajo futuro
 
-- **Corto plazo:** desplegar en la nube (Render, modo webhook) y ampliar el contenido y las palabras clave con base en pruebas de usuarios.
+- **Corto plazo:** ampliar el contenido y las palabras clave con base en pruebas de usuarios.
 - **Mediano plazo:** contenido en idiomas mayas (k'iche', mam, q'anjob'al), mensajes de audio, ubicaciones de oficinas y métricas de uso anónimas.
 - **Largo plazo:** alianza con una institución u organización para mantener la información actualizada, y evaluar WhatsApp o IA restringida al contenido verificado.
 
