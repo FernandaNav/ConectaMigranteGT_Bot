@@ -9,6 +9,7 @@ se envia como mensaje del usuario y el bot responde debajo, de modo que
 el historial de la conversacion queda visible.
 """
 
+import hashlib
 import json
 import logging
 import os
@@ -149,8 +150,24 @@ def main() -> None:
     app.add_handler(CommandHandler("directorio", directorio))
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, mensaje))
 
-    log.info("Conecta Migrante en linea")
-    app.run_polling(allowed_updates=Update.ALL_TYPES)
+    # en la nube se usa webhook: Telegram le avisa al servidor cada mensaje.
+    # Render define RENDER_EXTERNAL_URL solo; en local no existe y se usa polling.
+    url_publica = os.getenv("WEBHOOK_URL") or os.getenv("RENDER_EXTERNAL_URL")
+    if url_publica:
+        log.info("Conecta Migrante en linea (webhook)")
+        app.run_webhook(
+            listen="0.0.0.0",
+            port=int(os.getenv("PORT", "8443")),
+            url_path="telegram",
+            webhook_url=f"{url_publica.rstrip('/')}/telegram",
+            # Telegram manda este valor en cada peticion; las que no lo traen
+            # se rechazan, asi nadie mas puede hacerse pasar por Telegram
+            secret_token=hashlib.sha256(token.encode()).hexdigest(),
+            allowed_updates=Update.ALL_TYPES,
+        )
+    else:
+        log.info("Conecta Migrante en linea (polling)")
+        app.run_polling(allowed_updates=Update.ALL_TYPES)
 
 
 if __name__ == "__main__":
