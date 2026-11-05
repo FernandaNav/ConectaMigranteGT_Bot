@@ -42,13 +42,12 @@
       "padre": "inicio",
       "palabras_clave": [
         "emergencia",
-        "urgente",
         "auxilio",
         "socorro",
         "ambulancia",
         "policia"
       ],
-      "texto": "🚨 *Emergencia*\n\n*En Guatemala:*\n🚓 Policía Nacional Civil: *110*\n🚒 Bomberos (también ambulancias): *122* o *123*\n🚑 Cruz Roja: *125*\n👧 Niña, niño o adolescente desaparecido (Alerta Alba-Keneth): *1546*\n\n*Si estás en el extranjero:*\n• Llama al número de emergencias del país donde estás (en Estados Unidos y México es el *911*).\n• Si te detienen, pide que avisen al consulado de Guatemala.\n\n*Si un familiar migrante desapareció:* Migración (IGM) *2339-1447* o *1450*.",
+      "texto": "🚨 *Emergencia*\n\n*En Guatemala:*\n🚓 Policía Nacional Civil: *110*\n🚒 Bomberos (también ambulancias): *122* o *123*\n🚑 Cruz Roja: *125*\n👧 Niña, niño o adolescente desaparecido (Alerta Alba-Keneth): *1546*\n\n*Si estás en el extranjero:*\n• Llama al número de emergencias del país donde estás (en Estados Unidos y México es el *911*).\n• Si te detienen, pide que avisen al consulado de Guatemala.\n\n*Si un familiar migrante desapareció:* Migración (IGM) *2339-1447*, extensión *1450*.",
       "opciones": [
         {
           "texto": "🚔 Detención en el extranjero",
@@ -70,8 +69,7 @@
         "murio",
         "muerte",
         "restos",
-        "repatriacion",
-        "cuerpo"
+        "repatriacion"
       ],
       "texto": "🕊️ *Si un familiar falleció en el extranjero*\n\nLo sentimos mucho. Estos apoyos pueden ayudar a tu familia:\n\n🏛️ *MINEX – Fondo de repatriación*\nEl MINEX tiene un fondo de asistencia para guatemaltecos migrantes en situación de vulnerabilidad y fallecidos en el exterior. Puede apoyar con la repatriación de los restos. La solicitud se hace en el *consulado* más cercano, que revisa los documentos y evalúa si el caso aplica.\n\n🚐 *CONAMIGUA*\nApoya el traslado de los restos desde el aeropuerto La Aurora o la frontera hasta el lugar que la familia indique, y da asesoría social, legal y apoyo psicológico a la familia.\n\n📌 *Primer paso:* comunícate con el consulado de Guatemala del país donde ocurrió el fallecimiento.\n🔗 minex.gob.gt · conamigua.gob.gt"
     },
@@ -88,7 +86,7 @@
         "buscar a mi",
         "busqueda"
       ],
-      "texto": "🔎 *Si un familiar migrante desapareció*\n\nSi dejaste de tener noticias de tu familiar en el camino o en otro país, puedes reportarlo:\n\n📞 *Migración (IGM)* – Mecanismo de Búsqueda de Personas Migrantes Desaparecidas:\n• *2339-1447* o *1450*\n• Formulario de búsqueda en el sitio y las redes oficiales del IGM\n\n🏛️ *MINEX y consulados*: apoyan a las familias en la búsqueda y localización. Puedes acudir al consulado del país donde perdiste el contacto.\n\n🧬 El MINEX y el INACIF también ayudan en la posible identificación de personas desaparecidas.\n\n*Ten a mano:* nombre completo, fecha de nacimiento, número de DPI o pasaporte, una foto reciente, la ruta que iba a tomar y la fecha del último contacto.\n\n👧 Si es menor de edad, activa también la *Alerta Alba-Keneth*: 1546.\n🔗 igm.gob.gt · minex.gob.gt"
+      "texto": "🔎 *Si un familiar migrante desapareció*\n\nSi dejaste de tener noticias de tu familiar en el camino o en otro país, puedes reportarlo:\n\n📞 *Migración (IGM)* – Mecanismo de Búsqueda de Personas Migrantes Desaparecidas:\n• *2339-1447*, extensión *1450*\n• Formulario de búsqueda en el sitio y las redes oficiales del IGM\n\n🏛️ *MINEX y consulados*: apoyan a las familias en la búsqueda y localización. Puedes acudir al consulado del país donde perdiste el contacto.\n\n🧬 El MINEX y el INACIF también ayudan en la posible identificación de personas desaparecidas.\n\n*Ten a mano:* nombre completo, fecha de nacimiento, número de DPI o pasaporte, una foto reciente, la ruta que iba a tomar y la fecha del último contacto.\n\n👧 Si es menor de edad, activa también la *Alerta Alba-Keneth*: 1546.\n🔗 igm.gob.gt · minex.gob.gt"
     },
     "inicio": {
       "titulo": "Menú principal",
@@ -365,7 +363,7 @@
         "cita",
         "banrural"
       ],
-      "texto": "🛂 *Pasaporte*\nLo da *Migración (IGM)*.\n\n*Pasos:*\n1️⃣ *Paga* en Banrural (agencia o banca en línea). Guarda la boleta.\n2️⃣ *Saca tu cita en línea* en el sitio del IGM con el número de la boleta. *La cita es gratis.*\n3️⃣ *Imprime y firma* el formulario que te sale al sacar la cita.\n4️⃣ *Llega* el día y la hora de tu cita.\n\n*Lleva (adultos):*\n✅ El formulario firmado\n✅ Tu DPI vigente y en buen estado, más una copia de los dos lados en una sola hoja\n✅ Tu pasaporte anterior, si es renovación\n\n📍 Sedes: Ciudad de Guatemala (zonas 4 y 9), Quetzaltenango, Chiquimula, Zacapa y Petén.\n🔁 Puedes cambiar la fecha de tu cita hasta 2 veces.\n👧 Para menores de edad o si estás en el extranjero, los requisitos cambian: revisa en igm.gob.gt o en tu consulado.\n\n⚠️ No le pagues a 'gestores'.\n🔗 igm.gob.gt"
+      "texto": "🛂 *Pasaporte*\nLo da *Migración (IGM)*.\n\n*Pasos:*\n1️⃣ *Paga* en Banrural (agencia o banca en línea). Guarda la boleta.\n2️⃣ *Saca tu cita en línea* en el sitio del IGM con el número de la boleta. *La cita es gratis.*\n3️⃣ *Imprime y firma* el formulario que te sale al sacar la cita.\n4️⃣ *Llega* el día y la hora de tu cita.\n\n*Lleva (adultos):*\n✅ El formulario firmado\n✅ Tu DPI vigente y en buen estado, más una copia de los dos lados en una sola hoja\n✅ Tu pasaporte anterior, si es renovación\n\n📍 Hay sedes en la Ciudad de Guatemala y en departamentos como Quetzaltenango, Chiquimula, Zacapa y Petén. Revisa la lista completa en igm.gob.gt.\n🔁 Puedes cambiar la fecha de tu cita hasta 2 veces.\n👧 Para menores de edad o si estás en el extranjero, los requisitos cambian: revisa en igm.gob.gt o en tu consulado.\n\n⚠️ No le pagues a 'gestores'.\n🔗 igm.gob.gt"
     },
     "dpi_reposicion": {
       "titulo": "Reponer o renovar DPI",
@@ -383,7 +381,7 @@
         "reponer",
         "reposicion"
       ],
-      "texto": "🪪 *Reponer o renovar tu DPI*\nSi lo perdiste, te lo robaron, está dañado, vencido o cambió algún dato.\n\n*Lleva:*\n✅ Recibo de pago del trámite\n✅ Certificado de nacimiento de RENAP (original y copia), cuando corresponda\n✅ Boleto de ornato (original y copia), cuando corresponda\n\nRENAP te va a preguntar el motivo de la reposición.\n\n💻 La reposición también se puede pedir *en línea*, en los servicios electrónicos de RENAP.\n👵 Si tienes *60 años o más*, no pagas.\n\n🔗 renap.gob.gt"
+      "texto": "🪪 *Reponer o renovar tu DPI*\nSi lo perdiste, te lo robaron, está dañado, vencido o cambió algún dato.\n\n*Lleva:*\n✅ Recibo de pago del trámite\n✅ Certificado de nacimiento de RENAP (original y copia), cuando corresponda\n✅ Boleto de ornato (original y copia), cuando corresponda\n\nRENAP te va a preguntar el motivo de la reposición.\n\n💻 La reposición también se puede pedir *en línea*, en los servicios electrónicos de RENAP.\n👵 Si tienes *60 años o más*, no pagas, pero solo si haces el trámite en persona en una oficina de RENAP.\n\n🔗 renap.gob.gt"
     },
     "dpi_retornado": {
       "titulo": "DPI para retornados",
@@ -471,8 +469,7 @@
         "familia",
         "familiar",
         "mi esposo",
-        "mi esposa",
-        "mi hijo esta afuera"
+        "mi esposa"
       ],
       "texto": "👪 *Familias de migrantes*\n\nSi tu familiar está afuera o en el camino y algo pasó, el Estado también tiene apoyo gratuito para ti.\n\n¿Qué está pasando?",
       "opciones": [
@@ -500,7 +497,7 @@
         "teléfono",
         "contacto"
       ],
-      "texto": "📇 *Directorio de instituciones*\n\n• IGM – Migración y pasaporte: igm.gob.gt\n• MINEX – Consulados: minex.gob.gt\n• RENAP – DPI: renap.gob.gt\n   Atención al migrante: atencionalmigrante@renap.gob.gt\n• CONAMIGUA – Atención al migrante: conamigua.gob.gt\n• PDH – Derechos humanos: pdh.org.gt\n• MINTRAB – Empleo: mintrabajo.gob.gt\n• INTECAP – Capacitación: intecap.edu.gt\n• MSPAS – Salud: mspas.gob.gt\n\n🚨 Emergencias: PNC 110 · Bomberos 122 / 123 · Cruz Roja 125\n🔎 Migrantes desaparecidos (IGM): 2339-1447 o 1450\n\n💡 Confirma siempre requisitos y costos en estos sitios oficiales."
+      "texto": "📇 *Directorio de instituciones*\n\n• IGM – Migración y pasaporte: igm.gob.gt\n• MINEX – Consulados: minex.gob.gt\n• RENAP – DPI: renap.gob.gt\n   Atención al migrante: atencionalmigrante@renap.gob.gt\n• CONAMIGUA – Atención al migrante: conamigua.gob.gt\n• PDH – Derechos humanos: pdh.org.gt\n• MINTRAB – Empleo: mintrabajo.gob.gt\n• INTECAP – Capacitación: intecap.edu.gt\n• MSPAS – Salud: mspas.gob.gt\n\n🚨 Emergencias: PNC 110 · Bomberos 122 / 123 · Cruz Roja 125\n🔎 Migrantes desaparecidos (IGM): 2339-1447, ext. 1450\n\n💡 Confirma siempre requisitos y costos en estos sitios oficiales."
     },
     "acerca": {
       "titulo": "Acerca",
