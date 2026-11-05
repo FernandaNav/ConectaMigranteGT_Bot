@@ -7,18 +7,97 @@
       "palabras_clave": [
         "detenido",
         "detenida",
+        "detencion",
+        "detuvieron",
         "arresto",
+        "arrestado",
+        "arrestada",
+        "arrestaron",
         "ice",
         "migra",
         "peligro",
         "riesgo"
       ],
-      "texto": "Si tú o un familiar fueron detenidos en el extranjero:\n\n1. Comunícate con el *consulado de Guatemala* más cercano; tienen la función de brindar protección consular.\n2. No firmes documentos que no entiendas; pide un intérprete.\n3. Guarda nombre completo, fecha de nacimiento y lugar de detención de la persona.\n\n🔗 minex.gob.gt"
+      "texto": "🚨 *Si tú o un familiar fueron detenidos:*\n\n1️⃣ *Pide que avisen al consulado de Guatemala.* Puedes pedirlo. El consulado ayuda gratis a personas detenidas.\n2️⃣ *No firmes nada que no entiendas.* Pide un intérprete en español o en tu idioma.\n3️⃣ *Anota* el nombre completo, la fecha de nacimiento y el lugar donde está detenida la persona. Con eso el consulado la puede encontrar.\n\n📄 Si puedes, deja copia de tus documentos (pasaporte, DPI o tarjeta consular) con alguien de confianza.\n\n🔗 Busca tu consulado en minex.gob.gt",
+      "opciones": [
+        {
+          "texto": "👨‍👩‍👧 Tengo hijos, ¿qué hago?",
+          "ir_a": "ext_riesgo_hijos"
+        }
+      ]
+    },
+    "ext_riesgo_hijos": {
+      "titulo": "Detención e hijos",
+      "padre": "ext_riesgo",
+      "texto": "👨‍👩‍👧 *Si tienes hijos y te preocupa una detención*\n\n• *Registra a tus hijos en el consulado.* El MINEX lo recomienda para los hijos nacidos en Estados Unidos: así el consulado puede ayudarlos si sus papás son deportados.\n• *Pregunta por el mandato de representación legal temporal.* El MINEX lo recomienda a familias con hijos en Estados Unidos. En tu consulado te explican para qué sirve y cómo hacerlo.\n• *Ten un plan con alguien de confianza:* quién cuidaría a tus hijos y dónde están sus documentos.\n\n🔗 minex.gob.gt",
+      "opciones": [
+        {
+          "texto": "📝 Ver cómo registrarlos",
+          "ir_a": "ext_hijos"
+        }
+      ]
+    },
+    "emergencia": {
+      "titulo": "Emergencia",
+      "padre": "inicio",
+      "palabras_clave": [
+        "emergencia",
+        "urgente",
+        "auxilio",
+        "socorro",
+        "ambulancia",
+        "policia"
+      ],
+      "texto": "🚨 *Emergencia*\n\n*En Guatemala:*\n🚓 Policía Nacional Civil: *110*\n🚒 Bomberos (también ambulancias): *122* o *123*\n🚑 Cruz Roja: *125*\n👧 Niña, niño o adolescente desaparecido (Alerta Alba-Keneth): *1546*\n\n*Si estás en el extranjero:*\n• Llama al número de emergencias del país donde estás (en Estados Unidos y México es el *911*).\n• Si te detienen, pide que avisen al consulado de Guatemala.\n\n*Si un familiar migrante desapareció:* Migración (IGM) *2339-1447* o *1450*.",
+      "opciones": [
+        {
+          "texto": "🚔 Detención en el extranjero",
+          "ir_a": "ext_riesgo"
+        },
+        {
+          "texto": "🔎 Reportar a un familiar desaparecido",
+          "ir_a": "fam_desaparecido"
+        }
+      ]
+    },
+    "fam_fallecido": {
+      "titulo": "Familiar fallecido",
+      "padre": "familias",
+      "palabras_clave": [
+        "fallecio",
+        "fallecido",
+        "fallecida",
+        "murio",
+        "muerte",
+        "restos",
+        "repatriacion",
+        "cuerpo"
+      ],
+      "texto": "🕊️ *Si un familiar falleció en el extranjero*\n\nLo sentimos mucho. Estos apoyos pueden ayudar a tu familia:\n\n🏛️ *MINEX – Fondo de repatriación*\nEl MINEX tiene un fondo de asistencia para guatemaltecos migrantes en situación de vulnerabilidad y fallecidos en el exterior. Puede apoyar con la repatriación de los restos. La solicitud se hace en el *consulado* más cercano, que revisa los documentos y evalúa si el caso aplica.\n\n🚐 *CONAMIGUA*\nApoya el traslado de los restos desde el aeropuerto La Aurora o la frontera hasta el lugar que la familia indique, y da asesoría social, legal y apoyo psicológico a la familia.\n\n📌 *Primer paso:* comunícate con el consulado de Guatemala del país donde ocurrió el fallecimiento.\n🔗 minex.gob.gt · conamigua.gob.gt"
+    },
+    "fam_desaparecido": {
+      "titulo": "Familiar desaparecido",
+      "padre": "familias",
+      "palabras_clave": [
+        "desaparecido",
+        "desaparecida",
+        "desaparecio",
+        "no se nada",
+        "no tengo noticias",
+        "perdi contacto",
+        "buscar a mi",
+        "busqueda"
+      ],
+      "texto": "🔎 *Si un familiar migrante desapareció*\n\nSi dejaste de tener noticias de tu familiar en el camino o en otro país, puedes reportarlo:\n\n📞 *Migración (IGM)* – Mecanismo de Búsqueda de Personas Migrantes Desaparecidas:\n• *2339-1447* o *1450*\n• Formulario de búsqueda en el sitio y las redes oficiales del IGM\n\n🏛️ *MINEX y consulados*: apoyan a las familias en la búsqueda y localización. Puedes acudir al consulado del país donde perdiste el contacto.\n\n🧬 El MINEX y el INACIF también ayudan en la posible identificación de personas desaparecidas.\n\n*Ten a mano:* nombre completo, fecha de nacimiento, número de DPI o pasaporte, una foto reciente, la ruta que iba a tomar y la fecha del último contacto.\n\n👧 Si es menor de edad, activa también la *Alerta Alba-Keneth*: 1546.\n🔗 igm.gob.gt · minex.gob.gt"
     },
     "inicio": {
       "titulo": "Menú principal",
-      "texto": "¡Hola! Soy *Conecta Migrante* 🇬🇹\nTe oriento sobre instituciones y trámites si estás en proceso migratorio o regresaste a Guatemala.\n\n¿En qué te puedo ayudar?",
+      "texto": "¡Hola! Soy *Conecta Migrante* 🇬🇹\nTe oriento sobre instituciones y trámites si estás en proceso migratorio, regresaste a Guatemala o tienes un familiar migrante.\n\nUsa los botones o escríbeme una palabra como *pasaporte*, *DPI*, *consulado*, *trabajo* o *estafa*.\n🚨 ¿Es urgente? Escribe /emergencia\n\n¿En qué te puedo ayudar?",
       "opciones": [
+        {
+          "texto": "🚨 Emergencia",
+          "ir_a": "emergencia"
+        },
         {
           "texto": "🏠 Acabo de regresar a Guatemala",
           "ir_a": "retorno"
@@ -28,12 +107,24 @@
           "ir_a": "exterior"
         },
         {
+          "texto": "👪 Soy familiar de un migrante",
+          "ir_a": "familias"
+        },
+        {
+          "texto": "✈️ Trabajar afuera legalmente",
+          "ir_a": "trabajo_extranjero"
+        },
+        {
           "texto": "📄 Trámites y documentos",
           "ir_a": "tramites"
         },
         {
           "texto": "⚖️ Derechos y denuncias",
           "ir_a": "derechos"
+        },
+        {
+          "texto": "🛡️ Evitar estafas",
+          "ir_a": "estafas"
         },
         {
           "texto": "📇 Directorio de instituciones",
@@ -45,10 +136,32 @@
         }
       ]
     },
+    "trabajo_extranjero": {
+      "titulo": "Trabajar afuera legalmente",
+      "padre": "inicio",
+      "palabras_clave": [
+        "trabajar en el extranjero",
+        "trabajar afuera",
+        "trabajo en el extranjero",
+        "trabajo temporal",
+        "movilidad laboral",
+        "visa de trabajo",
+        "h2a",
+        "h2b",
+        "h-2a",
+        "h-2b",
+        "trabajar en canada",
+        "trabajar en estados unidos",
+        "trabajar en usa",
+        "trabajo en canada",
+        "trabajo en estados unidos"
+      ],
+      "texto": "✈️ *Trabajar en el extranjero de forma legal*\n\nEl *Ministerio de Trabajo (MINTRAB)* tiene el *Programa de Trabajo Temporal en el Extranjero*: te conecta con empleos por temporada en otros países, con un proceso de contratación que respeta tus derechos laborales.\n\n• *Es gratis.* Aplicar no tiene ningún costo.\n• *Destinos:* en 2025 viajaron trabajadores a Estados Unidos, Canadá, México, España, Italia y Alemania.\n• *Tipos de trabajo:* agrícola (visas H-2A de Estados Unidos) y no agrícola, como ayudante de construcción o cocina (visas H-2B).\n• *Requisitos básicos:* ser guatemalteco/a de origen y mayor de edad. Cada plaza pide requisitos propios.\n• *Cómo aplicar:* regístrate en la plataforma de movilidad laboral del MINTRAB y revisa las convocatorias en sus canales oficiales.\n\n⚠️ Si alguien te cobra por 'conseguirte' una visa o un contrato afuera, es estafa. El programa oficial no cobra.\n💡 El programa busca una migración regular, ordenada y segura.\n🔗 mintrabajo.gob.gt"
+    },
     "retorno": {
       "titulo": "Retorno a Guatemala",
       "padre": "inicio",
-      "texto": "Bienvenido/a de vuelta. ¿Qué necesitas?",
+      "texto": "Bienvenido/a de vuelta 🇬🇹 Vamos paso a paso.\n\n*Lo primero:*\n1️⃣ Al llegar, pregunta por el *Plan Retorno al Hogar* (es gratis y voluntario).\n2️⃣ Saca tu *DPI*: lo necesitas para casi todo.\n3️⃣ Busca *trabajo o un curso*.\n4️⃣ Cuida tu *salud* y cómo te sientes.\n\n¿Con qué empezamos?",
       "opciones": [
         {
           "texto": "¿Qué pasa al llegar?",
@@ -68,6 +181,15 @@
         }
       ]
     },
+    "retorno_plan": {
+      "titulo": "Plan Retorno al Hogar",
+      "padre": "retorno_llegada",
+      "palabras_clave": [
+        "plan retorno",
+        "retorno al hogar"
+      ],
+      "texto": "🏠 *Plan Retorno al Hogar*\n\nEs un programa del Gobierno para ayudarte a empezar de nuevo en Guatemala.\n\n• *Es voluntario y gratis.* Tú decides si entras.\n• Si aceptas, te llevan al *Centro de Atención y Registro (CAR)*, donde más de 20 instituciones dan servicios gratuitos.\n• Te atienden de forma personal: te preguntan qué sabes hacer y qué necesitas.\n• Según tu caso, te conectan con instituciones y empresas para empleo, capacitación y otros apoyos.\n\n💡 Pregunta por el plan al llegar al Centro de Recepción.\n🔗 igm.gob.gt"
+    },
     "retorno_llegada": {
       "titulo": "Al llegar",
       "padre": "retorno",
@@ -75,26 +197,64 @@
         "llegada",
         "deportado",
         "deportada",
+        "deportaron",
         "retornado",
         "retornada",
         "aeropuerto",
+        "fuerza aerea",
         "recepcion",
-        "regrese",
-        "regresé"
+        "regrese"
       ],
-      "texto": "Las personas retornadas son recibidas por el *Instituto Guatemalteco de Migración (IGM)* dentro del *Plan Retorno al Hogar*, en coordinación con otras instituciones del Estado.\n\nAl llegar se brinda orientación inicial, atención humanitaria básica (alimentación, salud, llamada a familiares) y se identifican necesidades y perfil laboral.\n\n🔗 igm.gob.gt"
+      "texto": "*¿Qué pasa al llegar a Guatemala?*\n\nSi regresas en avión, llegas al *Centro de Recepción de Retornados* de Migración (IGM), en la Fuerza Aérea, zona 13 de la capital. *La atención es gratis.*\n\nAhí te ofrecen:\n🤝 Orientación y atención básica\n🩺 Clínica médica para adultos y niños\n👨‍👩‍👧 Espacios para niñas, niños y familias\n📞 Llamadas e internet para hablar con tu familia\n💬 Apoyo psicológico y asesoría legal\n🪪 Iniciar el trámite de tu DPI\n💱 Cambio de moneda\n\nTambién te invitarán al *Plan Retorno al Hogar* 👇",
+      "opciones": [
+        {
+          "texto": "¿Qué es el Plan Retorno al Hogar?",
+          "ir_a": "retorno_plan"
+        }
+      ]
+    },
+    "empleo_intecap": {
+      "titulo": "Cursos y diplomas",
+      "padre": "retorno_empleo",
+      "palabras_clave": [
+        "intecap",
+        "capacitacion",
+        "curso",
+        "cursos",
+        "beca",
+        "becas",
+        "certificacion",
+        "diploma",
+        "estudiar"
+      ],
+      "texto": "🎓 *Cursos y diplomas con INTECAP*\n\nINTECAP tiene el programa *Becas para Retornados*:\n\n• *Cursos técnicos*, en persona o a distancia.\n• *Certificación de lo que ya sabes hacer*: si aprendiste un oficio afuera, te evalúan y te dan una constancia oficial que lo demuestra. Te sirve para buscar trabajo.\n• No importa tu nivel de estudios ni tu experiencia.\n• Hay centros en varios departamentos; Quetzaltenango es de los que más personas retornadas ha inscrito.\n\n🔗 intecap.edu.gt"
     },
     "retorno_empleo": {
       "titulo": "Empleo y capacitación",
       "padre": "retorno",
       "palabras_clave": [
         "trabajo",
+        "trabajar",
         "empleo",
         "chamba",
-        "capacitacion",
-        "curso"
+        "mintrab"
       ],
-      "texto": "Opciones para buscar trabajo o capacitarte:\n\n• *Ministerio de Trabajo (MINTRAB)*: bolsa de empleo y orientación laboral.\n🔗 mintrabajo.gob.gt\n\n• *INTECAP*: cursos técnicos y certificación de habilidades que aprendiste afuera.\n🔗 intecap.edu.gt\n\n💡 Pregunta en la recepción del IGM por la vinculación laboral del Plan Retorno al Hogar."
+      "texto": "💼 *Empleo y capacitación*\n\nLo que aprendiste afuera tiene valor. Hay apoyo *gratuito* para:\n• *Buscar trabajo* → Ministerio de Trabajo\n• *Estudiar un curso o certificar lo que ya sabes hacer* → INTECAP\n\n¿Qué te interesa?",
+      "opciones": [
+        {
+          "texto": "🔎 Buscar trabajo",
+          "ir_a": "empleo_buscar"
+        },
+        {
+          "texto": "🎓 Cursos y diplomas (INTECAP)",
+          "ir_a": "empleo_intecap"
+        }
+      ]
+    },
+    "empleo_buscar": {
+      "titulo": "Buscar trabajo",
+      "padre": "retorno_empleo",
+      "texto": "🔎 *Buscar trabajo*\n\nEl *Ministerio de Trabajo (MINTRAB)* te ayuda gratis:\n\n• *Unidad para personas retornadas*: te orienta y te conecta con empresas que buscan personal.\n• *Ventanilla de empleo de tu municipalidad (VUME)*: hay en decenas de municipios, también en Quetzaltenango. Pregunta en tu muni.\n• *Ferias de empleo*: muchas empresas en un solo lugar.\n• *Ayuda con tu hoja de vida (CV)* y para prepararte para una entrevista.\n• Bolsa de empleo en línea *Tu Empleo*.\n\n⚠️ Si una oferta de trabajo te pide pagar antes, puede ser una estafa.\n🔗 mintrabajo.gob.gt"
     },
     "retorno_salud": {
       "titulo": "Salud y apoyo emocional",
@@ -102,18 +262,26 @@
       "palabras_clave": [
         "salud",
         "enfermo",
+        "enferma",
+        "medico",
+        "clinica",
         "psicologo",
+        "psicologa",
         "psicológico",
+        "emocional",
         "ansiedad",
+        "estres",
         "triste",
+        "deprimido",
+        "deprimida",
         "apoyo"
       ],
-      "texto": "Regresar puede ser difícil, y está bien pedir apoyo.\n\n• *Ministerio de Salud (MSPAS)*: puestos y centros de salud en todo el país, con atención gratuita.\n🔗 mspas.gob.gt\n\n🚨 En una emergencia, llama a los *Bomberos* (122 / 123) o acude al hospital más cercano."
+      "texto": "🚨 *¿Es una emergencia?* Llama a los Bomberos (122 o 123) o ve al hospital más cercano.\n\n💙 Regresar puede ser difícil. Sentir tristeza, cansancio o estrés es normal, y está bien pedir ayuda.\n\n🏥 *Centros de salud (MSPAS)*\nHay puestos, centros de salud y hospitales públicos en todo el país, con atención gratis.\n🔗 mspas.gob.gt\n\n🧠 *Apoyo emocional*\n• Al llegar, en el Centro de Recepción hay apoyo psicológico y clínica médica.\n• *CONAMIGUA* da atención psicológica a personas retornadas.\n• *SOSEP* apoya a familias retornadas con alimentación, salud y apoyo psicológico.\n\n💬 Hablar con alguien de confianza también ayuda. No estás solo/a."
     },
     "exterior": {
       "titulo": "En el extranjero",
       "padre": "inicio",
-      "texto": "Si estás fuera de Guatemala, tu principal apoyo es la red consular del *Ministerio de Relaciones Exteriores (MINEX)*.",
+      "texto": "Si estás fuera de Guatemala, tu principal apoyo es la red consular del *Ministerio de Relaciones Exteriores (MINEX)*: consulados en Estados Unidos, México, Canadá y otros países, además de consulados móviles.\n\n¿Qué necesitas?",
       "opciones": [
         {
           "texto": "Consulados y servicios",
@@ -126,8 +294,30 @@
         {
           "texto": "Documentos desde afuera",
           "ir_a": "ext_documentos"
+        },
+        {
+          "texto": "Registrar a mis hijos nacidos afuera",
+          "ir_a": "ext_hijos"
         }
       ]
+    },
+    "ext_hijos": {
+      "titulo": "Hijos nacidos afuera",
+      "padre": "exterior",
+      "palabras_clave": [
+        "hijo",
+        "hijos",
+        "hija",
+        "hijas",
+        "nacido",
+        "nacida",
+        "nacimiento",
+        "inscripcion",
+        "inscribir",
+        "registrar",
+        "nacionalidad"
+      ],
+      "texto": "👶 *Registrar a tus hijos nacidos afuera*\n\nSi tu hijo o hija nació en otro país y tú eres guatemalteco/a, también es guatemalteco/a (así lo dice la Constitución). Registrarlo le permite tener documentos de Guatemala.\n\n📍 *¿Dónde?*\n• *Si están afuera*: en el consulado más cercano o en un consulado móvil.\n• *Si ya están en Guatemala*: en el Ministerio de Relaciones Exteriores (Ventanilla 1 de Registro Civil).\n• *Hijos mayores de 18*: desde febrero de 2025 pueden hacerlo ellos mismos en el consulado.\n\n📄 Te pedirán, entre otros, el certificado de nacimiento de los papás (de RENAP si son guatemaltecos). Confirma la lista completa con tu consulado.\n\n🔗 minex.gob.gt"
     },
     "ext_consulados": {
       "titulo": "Consulados",
@@ -135,23 +325,27 @@
       "palabras_clave": [
         "consulado",
         "consular",
+        "consulados moviles",
+        "consulado movil",
+        "orientacion legal",
+        "abogado",
         "estados unidos",
         "usa",
         "mexico",
         "méxico",
         "canada"
       ],
-      "texto": "Guatemala tiene una red de consulados en Estados Unidos, México, Canadá y otros países. Ofrecen protección consular, orientación legal migratoria gratuita y documentación (pasaporte, DPI, tarjeta consular).\n\nEl MINEX también realiza *consulados móviles* en distintas ciudades.\n\n🔗 Directorio y citas: minex.gob.gt"
+      "texto": "🏛️ *Consulados de Guatemala*\n\nEl consulado es la oficina de Guatemala en otro país. Hay en Estados Unidos, México, Canadá y otros países. Te ayudan con:\n\n🆘 *Problemas*: si te detienen, si eres víctima de un delito o estás en peligro.\n⚖️ *Orientación legal gratis* sobre tu situación migratoria (en Estados Unidos hay en 16 consulados).\n🪪 *Documentos*: pasaporte, DPI, tarjeta consular y certificados de nacimiento.\n👶 *Registro* de nacimientos de tus hijos y de defunciones.\n\n🚐 *Consulados móviles*: el consulado visita ciudades donde no tiene oficina. Las fechas salen en el sitio y las redes del MINEX.\n\n🔗 Busca tu consulado y saca cita: minex.gob.gt"
     },
     "ext_documentos": {
       "titulo": "Documentos desde afuera",
       "padre": "exterior",
-      "texto": "Desde un consulado puedes tramitar pasaporte, DPI, tarjeta de identificación consular y certificados de nacimiento (por ejemplo, para registrar a hijos nacidos afuera).\n\nConfirma requisitos y forma de cita en la página de tu consulado.\n🔗 minex.gob.gt"
+      "texto": "*Documentos desde el extranjero*\n\nEn los consulados (y en los consulados móviles) puedes tramitar:\n\n• *Pasaporte* guatemalteco.\n• *DPI*: primera vez, reposición y renovación.\n• *Tarjeta de identificación consular*.\n• *Certificados de nacimiento* de RENAP.\n• *Inscripción de nacimiento* de hijos nacidos afuera.\n\n📌 Antes de ir, revisa en la página de tu consulado los requisitos, los costos y cómo sacar cita. Los costos en el extranjero pueden ser distintos a los de Guatemala.\n\n🔗 minex.gob.gt · renap.gob.gt"
     },
     "tramites": {
       "titulo": "Trámites y documentos",
       "padre": "inicio",
-      "texto": "¿Qué trámite necesitas?",
+      "texto": "¿Qué trámite necesitas?\n\n💡 Empieza por el *DPI*: lo necesitas vigente para sacar el pasaporte y para casi cualquier otro trámite.",
       "opciones": [
         {
           "texto": "Pasaporte",
@@ -167,9 +361,34 @@
       "titulo": "Pasaporte",
       "padre": "tramites",
       "palabras_clave": [
-        "pasaporte"
+        "pasaporte",
+        "cita",
+        "banrural"
       ],
-      "texto": "El pasaporte lo emite el *IGM*.\n\n• En Guatemala: programa tu cita *en línea* (es gratuita) y llega con el formulario impreso y firmado que se genera al agendar, más tu DPI vigente.\n• En el extranjero: se tramita en el consulado.\n\n⚠️ La cita no tiene costo. No pagues a 'gestores' ni a páginas de redes sociales.\n🔗 igm.gob.gt"
+      "texto": "🛂 *Pasaporte*\nLo da *Migración (IGM)*.\n\n*Pasos:*\n1️⃣ *Paga* en Banrural (agencia o banca en línea). Guarda la boleta.\n2️⃣ *Saca tu cita en línea* en el sitio del IGM con el número de la boleta. *La cita es gratis.*\n3️⃣ *Imprime y firma* el formulario que te sale al sacar la cita.\n4️⃣ *Llega* el día y la hora de tu cita.\n\n*Lleva (adultos):*\n✅ El formulario firmado\n✅ Tu DPI vigente y en buen estado, más una copia de los dos lados en una sola hoja\n✅ Tu pasaporte anterior, si es renovación\n\n📍 Sedes: Ciudad de Guatemala (zonas 4 y 9), Quetzaltenango, Chiquimula, Zacapa y Petén.\n🔁 Puedes cambiar la fecha de tu cita hasta 2 veces.\n👧 Para menores de edad o si estás en el extranjero, los requisitos cambian: revisa en igm.gob.gt o en tu consulado.\n\n⚠️ No le pagues a 'gestores'.\n🔗 igm.gob.gt"
+    },
+    "dpi_reposicion": {
+      "titulo": "Reponer o renovar DPI",
+      "padre": "tram_dpi",
+      "palabras_clave": [
+        "perdi mi dpi",
+        "perdi el dpi",
+        "robaron mi dpi",
+        "robaron el dpi",
+        "dpi vencido",
+        "dpi dañado",
+        "renovar dpi",
+        "renovar el dpi",
+        "renovar mi dpi",
+        "reponer",
+        "reposicion"
+      ],
+      "texto": "🪪 *Reponer o renovar tu DPI*\nSi lo perdiste, te lo robaron, está dañado, vencido o cambió algún dato.\n\n*Lleva:*\n✅ Recibo de pago del trámite\n✅ Certificado de nacimiento de RENAP (original y copia), cuando corresponda\n✅ Boleto de ornato (original y copia), cuando corresponda\n\nRENAP te va a preguntar el motivo de la reposición.\n\n💻 La reposición también se puede pedir *en línea*, en los servicios electrónicos de RENAP.\n👵 Si tienes *60 años o más*, no pagas.\n\n🔗 renap.gob.gt"
+    },
+    "dpi_retornado": {
+      "titulo": "DPI para retornados",
+      "padre": "tram_dpi",
+      "texto": "🪪 *DPI para personas retornadas*\n\n*Al llegar* a la Fuerza Aérea puedes empezar el trámite ahí mismo. Si no lo haces, te dan una *contraseña* (un comprobante) para que te atiendan *primero* en cualquier oficina de RENAP del país. ¡Guárdala!\n\n*Para que tu DPI salga más rápido, lleva:*\n✅ Copia de la hoja de deportación o una declaración jurada hecha ante notario\n✅ Una carta pidiendo que agilicen tu trámite\n✅ El formulario que te dan en la ventanilla\n✅ Copia de la hoja de datos de tu DPI anterior, si la tienes\n\n📞 *RENAP – Atención al migrante*\n• atencionalmigrante@renap.gob.gt\n• (502) 2416-1900, opción 2\n• 1516 (desde Guatemala)\n🔗 renap.gob.gt"
     },
     "tram_dpi": {
       "titulo": "DPI",
@@ -181,20 +400,95 @@
         "cedula",
         "cui"
       ],
-      "texto": "El *DPI* lo emite el *Registro Nacional de las Personas (RENAP)*. Si regresaste sin documentos, acude a una oficina de RENAP para reponerlo.\n\nSi estás en el extranjero, puedes solicitarlo en el consulado.\n🔗 renap.gob.gt"
+      "texto": "🪪 *DPI*\nLo da el *RENAP*. Lo necesitas para casi todo, incluido el pasaporte.\n\n¿Cuál es tu caso?",
+      "opciones": [
+        {
+          "texto": "Soy retornado/a y necesito mi DPI",
+          "ir_a": "dpi_retornado"
+        },
+        {
+          "texto": "Perdí mi DPI o está dañado o vencido",
+          "ir_a": "dpi_reposicion"
+        },
+        {
+          "texto": "Sacar el DPI desde el extranjero",
+          "ir_a": "ext_documentos"
+        }
+      ]
     },
     "derechos": {
       "titulo": "Derechos y denuncias",
       "padre": "inicio",
       "palabras_clave": [
         "derechos",
-        "denuncia",
-        "abuso",
-        "estafa",
         "discriminacion",
+        "discriminado",
+        "discriminada",
         "maltrato"
       ],
-      "texto": "Tienes derecho a un trato digno, a estar documentado/a y a recibir orientación.\n\n• *Procuraduría de los Derechos Humanos (PDH)*: recibe denuncias por violaciones a derechos.\n🔗 pdh.org.gt\n\n• *CONAMIGUA* (Consejo Nacional de Atención al Migrante de Guatemala): coordina políticas de atención a migrantes y sus familias.\n🔗 conamigua.gob.gt\n\n⚠️ Desconfía de quien te cobre por 'agilizar' trámites del IGM, RENAP o consulados."
+      "texto": "⚖️ *Tus derechos*\n\nLa ley de Guatemala (Código de Migración) reconoce que toda persona puede migrar y regresar a su país.\n\nTienes derecho a:\n✅ Que te traten con respeto y sin discriminación\n✅ Tener tus documentos (DPI, pasaporte, certificados)\n✅ Recibir información clara sobre tus trámites\n✅ Que tu consulado te ayude si te detienen o eres víctima de un delito afuera\n\nSi alguien no respetó tus derechos, puedes denunciarlo 👇",
+      "opciones": [
+        {
+          "texto": "📢 ¿Dónde denunciar o pedir ayuda?",
+          "ir_a": "derechos_denuncia"
+        }
+      ]
+    },
+    "derechos_denuncia": {
+      "titulo": "Dónde denunciar",
+      "padre": "derechos",
+      "palabras_clave": [
+        "denuncia",
+        "denunciar",
+        "queja",
+        "abuso",
+        "pdh",
+        "conamigua"
+      ],
+      "texto": "📢 *¿Dónde denunciar o pedir ayuda?*\n\n🏛️ *Procuraduría de los Derechos Humanos (PDH)*\nRecibe denuncias cuando no se respetan tus derechos. Tiene una oficina especial para personas migrantes (Defensoría de las Personas Migrantes).\n🔗 pdh.org.gt\n\n🤝 *CONAMIGUA*\nInstitución del Estado que atiende a migrantes, personas retornadas y sus familias. Da asesoría legal, social y psicológica, tiene sedes en varios departamentos y apoya a familias de migrantes que fallecieron o resultaron heridos afuera.\n🔗 conamigua.gob.gt\n\n🌎 *Si estás afuera*: acude a tu consulado.\n🔗 minex.gob.gt\n\n⚠️ Desconfía de quien te cobre por 'agilizar' trámites."
+    },
+    "estafas": {
+      "titulo": "Evitar estafas",
+      "padre": "inicio",
+      "palabras_clave": [
+        "estafa",
+        "estafaron",
+        "fraude",
+        "gestor",
+        "gestores",
+        "tramitador",
+        "tramitadores",
+        "engañaron",
+        "cobran",
+        "cobro"
+      ],
+      "texto": "🛡️ *Cómo no caer en estafas*\n\n✅ *Las citas son gratis.* Nadie te tiene que cobrar por sacar tu cita de pasaporte 'más rápido'.\n✅ *Paga solo donde es oficial.* El pasaporte se paga en Banrural, no a otra persona.\n✅ *Usa sitios oficiales.* Casi todos terminan en *.gob.gt* (igm.gob.gt, renap.gob.gt, minex.gob.gt). Los demás sitios oficiales están en el directorio de este bot.\n❌ *No confíes* en perfiles de redes sociales que venden citas, documentos o 'arreglar papeles'.\n❌ *No mandes fotos* de tu DPI o pasaporte a desconocidos.\n❌ *No pagues por adelantado* por una oferta de trabajo, ni por una visa o contrato en el extranjero. El programa de trabajo temporal del MINTRAB es gratis.\n\n*¿Te estafaron?* Guarda los mensajes y recibos, y busca ayuda en la PDH (pdh.org.gt) o en tu consulado.\n\nℹ️ Este bot es gratis y nunca te pedirá datos ni dinero."
+    },
+    "familias": {
+      "titulo": "Familias de migrantes",
+      "padre": "inicio",
+      "palabras_clave": [
+        "familia",
+        "familiar",
+        "mi esposo",
+        "mi esposa",
+        "mi hijo esta afuera"
+      ],
+      "texto": "👪 *Familias de migrantes*\n\nSi tu familiar está afuera o en el camino y algo pasó, el Estado también tiene apoyo gratuito para ti.\n\n¿Qué está pasando?",
+      "opciones": [
+        {
+          "texto": "🔎 Mi familiar desapareció",
+          "ir_a": "fam_desaparecido"
+        },
+        {
+          "texto": "🕊️ Mi familiar falleció afuera",
+          "ir_a": "fam_fallecido"
+        },
+        {
+          "texto": "🚔 Mi familiar está detenido",
+          "ir_a": "ext_riesgo"
+        }
+      ]
     },
     "directorio": {
       "titulo": "Directorio",
@@ -206,12 +500,12 @@
         "teléfono",
         "contacto"
       ],
-      "texto": "📇 *Directorio de instituciones*\n\n• IGM – Migración: igm.gob.gt\n• MINEX – Consulados: minex.gob.gt\n• RENAP – DPI: renap.gob.gt\n• CONAMIGUA: conamigua.gob.gt\n• PDH: pdh.org.gt\n• MINTRAB – Empleo: mintrabajo.gob.gt\n• INTECAP – Capacitación: intecap.edu.gt\n• MSPAS – Salud: mspas.gob.gt"
+      "texto": "📇 *Directorio de instituciones*\n\n• IGM – Migración y pasaporte: igm.gob.gt\n• MINEX – Consulados: minex.gob.gt\n• RENAP – DPI: renap.gob.gt\n   Atención al migrante: atencionalmigrante@renap.gob.gt\n• CONAMIGUA – Atención al migrante: conamigua.gob.gt\n• PDH – Derechos humanos: pdh.org.gt\n• MINTRAB – Empleo: mintrabajo.gob.gt\n• INTECAP – Capacitación: intecap.edu.gt\n• MSPAS – Salud: mspas.gob.gt\n\n🚨 Emergencias: PNC 110 · Bomberos 122 / 123 · Cruz Roja 125\n🔎 Migrantes desaparecidos (IGM): 2339-1447 o 1450\n\n💡 Confirma siempre requisitos y costos en estos sitios oficiales."
     },
     "acerca": {
       "titulo": "Acerca",
       "padre": "inicio",
-      "texto": "*Conecta Migrante* es un proyecto de Responsabilidad Social Universitaria del curso de Ética Aplicada, Facultad de Ingeniería, Universidad Rafael Landívar, Campus de Quetzaltenango.\n\nEquipo: Luis Granados, María Inés Cardona López, Fernanda Abigail Navarro Martínez y Andy Emmanuel Maldonado López."
+      "texto": "*Conecta Migrante* es un proyecto de Responsabilidad Social Universitaria del curso de Ética Aplicada, Facultad de Ingeniería, Universidad Rafael Landívar, Campus de Quetzaltenango.\n\n*Nuestros compromisos:*\n• *Información verificada*: cada respuesta fue redactada y revisada por el equipo con base en fuentes oficiales. No usamos inteligencia artificial.\n• *Privacidad*: no te pedimos nombre, DPI ni teléfono, y no guardamos tus conversaciones.\n• *Gratuito*: no cobramos nada ni pedimos pagos.\n• *Orientación, no asesoría legal*: te indicamos a qué institución acudir; confirma siempre en sus canales oficiales.\n\nEquipo: Luis Granados, María Inés Cardona López, Fernanda Abigail Navarro Martínez y Andy Emmanuel Maldonado López."
     }
   }
 }

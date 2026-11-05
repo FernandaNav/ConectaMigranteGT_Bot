@@ -107,13 +107,18 @@ async def ayuda(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await update.message.reply_text(
         "Usa los botones de abajo para navegar, o escríbeme una palabra como "
         "*pasaporte*, *DPI*, *consulado* o *trabajo*.\n\n"
-        "Comandos:\n/start - menú principal\n/directorio - instituciones\n/ayuda - esta ayuda",
+        "Comandos:\n/start - menú principal\n/emergencia - números de emergencia\n"
+        "/directorio - instituciones\n/ayuda - esta ayuda",
         parse_mode=ParseMode.MARKDOWN,
     )
 
 
 async def directorio(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await mostrar(update, context, "directorio")
+
+
+async def emergencia(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    await mostrar(update, context, "emergencia")
 
 
 async def mensaje(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -148,6 +153,7 @@ def main() -> None:
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("ayuda", ayuda))
     app.add_handler(CommandHandler("directorio", directorio))
+    app.add_handler(CommandHandler("emergencia", emergencia))
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, mensaje))
 
     # en la nube se usa webhook: Telegram le avisa al servidor cada mensaje.
